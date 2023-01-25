@@ -1,6 +1,14 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.link{
+
+}
+.list{
+
+}
+/*-------------HEADER-------------*/
+
 .header {
 }
 .header-navigation {
@@ -9,14 +17,22 @@ body{
 }
 .header-item {
 }
+.header-link { 
+}
 .header-address {
 }
+
+/*-------------SLOGAN-------------*/
+
 .slogan {
 }
 .slogan-title {
 }
 .slogan-btn {
 }
+
+/*-------------ABOUT-------------*/
+
 .about {
 }
 .about-title {
@@ -25,6 +41,12 @@ body{
 }
 .about-item {
 }
+.about-item-title {
+}
+.about-item-text {
+}
+/*-------------PORTFOLIO-------------*/
+
 .portfolio {
 }
 .portfolio-title {
@@ -33,6 +55,9 @@ body{
 }
 .portfolio-item {
 }
+
+/*-------------TEAM-------------*/
+
 .team {
 }
 .team-title {
@@ -41,22 +66,21 @@ body{
 }
 .team-item {
 }
+.team-item-title {
+}
+.team-item-text {
+}
+/*-------------FOOTER-------------*/
+
 .footer {
 }
 .footer-link {
 }
 .footer-desc {
 }
-.header {
-}
-.header-navigation {
-}
-.header-list {
-}
-.header-item {
-}
-.header-address {
-}
+
+/*-------------FILTERS-------------*/
+
 .filters {
 }
 .filters-navigation {
@@ -67,19 +91,16 @@ body{
 }
 .filters-btn {
 }
+
+/*-------------PROJECTS-------------*/
+
 .projects {
 }
 .projects-list {
 }
 .projects-item {
 }
-.projects-title {
+.projects-item-title {
 }
-.projects-desc {
-}
-.footer {
-}
-.footer-link {
-}
-.footer-desc {
+.projects-item-text {
 }
