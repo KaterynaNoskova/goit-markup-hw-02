@@ -3,6 +3,7 @@
     --accent-color: #4D5AE5;
     --main-text-color:  #2E2F42;
     --second-text-color: #434455;
+    --text-hover-link: #404BBF;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -33,7 +34,7 @@ body{
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--accent-color, #4D5AE5);
 }
 .header-item {
 }
@@ -47,7 +48,7 @@ body{
     color: var(--main-text-color, #2E2F42);
 }
 .header-link:is(:hover, :focus){
-    color: #404BBF;
+    color: var(--text-hover-link, #404BBF);
 }
 .header-accent-logo{
     color: var(--main-text-color, #2E2F42);
@@ -68,13 +69,13 @@ body{
     color: var(--second-text-color, #434455);
 }
 .header-address-link:is(:hover, :focus){
-    color: #404BBF;
+    color: var(--text-hover-link, #404BBF);
 }
 
 /*-------------SLOGAN-------------*/
 
 .slogan {
-    background: #2E2F42;
+    background: var(--main-text-color, #2E2F42);
 }
 .slogan-title {
     font-weight: 700;
@@ -92,11 +93,12 @@ body{
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
     color: #FFFFFF;
     background: var(--accent-color, #4D5AE5);
 }
 .slogan-btn:is(:hover, :focus){
-    background: #404BBF;
+    background: var(--text-hover-link, #404BBF);
 }
 
 /*-------------ABOUT-------------*/
@@ -186,7 +188,7 @@ body{
 /*-------------FOOTER-------------*/
 
 .footer {
-    background: #2E2F42;
+    background: var(--main-text-color, #2E2F42);
 }
 .footer-logo-link {
     font-family: 'Raleway', sans-serif;
@@ -198,7 +200,7 @@ body{
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--accent-color, #4D5AE5);
 }
 .footer-accent-logo{
     color: #F4F4FD;
@@ -228,13 +230,14 @@ body{
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    cursor: pointer;
+    color: var(--accent-color, #4D5AE5);
     background: #F4F4FD;
 }
 .portfolio-filter-btn:is(:hover, :focus)
 {
     color: #FFFFFF;
-    background: #404BBF;
+    background: var(--text-hover-link, #404BBF);
 }
 .portfolio-projects-list {
 }
@@ -254,5 +257,5 @@ body{
     font-size: 16px;
     line-height: var(--typical-lh);
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--second-text-color, #434455);
 }
